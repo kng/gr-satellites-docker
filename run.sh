@@ -10,5 +10,5 @@ docker run \
     --rm \
     --tmpfs /tmp \
     -v "$GRHOME":/home/grsat \
-    -it knegge/gr-satellites:latest "$@"
+    -it knegge/gr-satellites:v5.1.1 "$@"
 
